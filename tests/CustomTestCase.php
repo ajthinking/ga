@@ -13,7 +13,7 @@ abstract class CustomTestCase extends BaseTestCase
 {
     protected function setUp() : void
     {
-        exit("I will kill the app here!");
+        exit("I will kill the app here now!");
         parent::setUp();
     }
 
